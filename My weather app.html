@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <title>
+            My weather app
+        </title>
+        <h1>
+            My weather app
+        </h1>
+        <style>
+    Body {
+    Background-color: Purple;
+    }
+    .Weather-card {
+        Height: 300px;
+        Width: 240px;
+        Border: 2px solid blue;
+        border-radius: 8px;
+        margin: 24px;
+        background: Linear-gradient(to right, blue, orange);
+        text-align: center;
+    }
+    h2 {
+    Color: gold;
+    }
+    h1 {
+    text-align: center;
+    color: Aquamarine;
+    }
+    .temprature {
+        Color: Green;
+    }
+    .forecast-section {
+        height: 300px;
+        width: 265px;
+        background: linear-gradient(to top, Blue, burlywood);
+        border: 3px solid forestgreen;
+        border-radius: 16px;
+    }
+    .weather-icon{
+        font-size: 50px;
+        animation: floatCloud 3s
+        infinite alternate;
+    }
+        </style>
+    </head>
+    <body>
+<center>
+        <p class="subtitle">
+            Check the today's weather, in this weather app
+        </p>
+
+        <div class="Weather-card">
+            <h2>Today's weather</h2>
+
+            <div class="weather-icon">
+                Cloud
+            </div>
+
+            <p id="temprature">37°C</p>
+
+            <p class="details">City: Sharjah</p>
+
+            <p class="details">Humidity: 59%</p>
+
+            <p class="details">Wind Speed: 18Km/h</p>
+        </div>
+</center>
+            <center><h2>Weekly Forecast</h2></center>
+
+        <center>
+            <div class="forecast-section">
+                <h3 class="forecast-title">Next 5 Days</h3>
+        
+            <p class="day">Monday: Sunny - 37°C</p>
+            <p class="day">Tuesday: Sunny - 36°C</p>
+            <p class="day">Wednesday: Sunny - 35°C</p>
+            <p class="day">Thursday: Sunny - 36°C</p>
+            <p class="day">Friday: Sunny - 37°C</p>
+            <p class="day">Saturday: Sunny - 37°C</p>
+            <p class="day">Sunday: Sunny - 36°C</p>
+            </div>
+        </center>
+    </body>
+</html>
